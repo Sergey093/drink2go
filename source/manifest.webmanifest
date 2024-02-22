@@ -7,19 +7,23 @@
   "orientation": "any",
   "icons": [
     {
-      "src": "/180.png",
+      "src": "favicons/180.png",
+      "type": "image/png",
       "sizes": "180x180"
     },
     {
-      "src": "/192.png",
+      "src": "favicons/192.png",
+      "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/512.png",
+      "src": "favicons/512.png",
+      "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "/icon.svg",
+      "src": "favicons/icon.svg",
+      "type": "image/svg",
       "sizes": "32x32"
     }
   ]
