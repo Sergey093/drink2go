@@ -1,0 +1,24 @@
+.contacts-list {
+  padding-bottom: 8px;
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 0;
+  }
+}
+
+.contacts-list__item {
+  display: flex;
+  padding-bottom: 3px;
+
+  list-style: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: $montserrat-medium;
+  text-transform: none;
+
+  gap: 6px;
+}
+
+.contacts-list__list-text {
+  padding-bottom: 13px;
+}

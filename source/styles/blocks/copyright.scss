@@ -1,0 +1,23 @@
+.copyright__link {
+  display: flex;
+
+  &:hover,
+  &:focus {
+    color: $primary;
+  }
+
+  &:active {
+    color: $primary-darker;
+  }
+}
+
+.copyright__link-icon {
+  margin-left: 2px;
+
+  fill: currentColor;
+
+  &:hover,
+  &:focus {
+    color: $primary;
+  }
+}

@@ -1,5 +1,13 @@
 .header {
-  background-color: #663399;
-  color: #ffffff;
-  padding: 10px 15px;
+  padding: 0 0 2px;
+
+  font-size: 12px;
+  line-height: 16px;
+  font-family: $montserrat-medium;
+
+  background-color: $white;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
 }

@@ -1,0 +1,92 @@
+.card {
+  padding: 20px;
+
+  background-color: $white;
+
+  @media (min-width: $tablet-width) {
+    padding: 30px;
+  }
+}
+
+.card__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 20px;
+    padding-bottom: 28px;
+  }
+}
+
+.card__tittle {
+  margin: 0;
+  padding-bottom: 5px;
+
+  font-size: 18px;
+  line-height: 32px;
+  font-family: $montserrat-bold;
+
+  @media (min-width: $tablet-width) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.card__description {
+  margin: 0;
+  padding: 0 0 15px;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: $montserrat-regular;
+
+  @media (min-width: $tablet-width) {
+    padding: 4px 0 19px;
+  }
+}
+
+.card__pay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.card__price {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: $montserrat-semibold;
+}
+
+.card__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 140px;
+  min-height: 36px;
+  padding: 8px 20px;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: $montserrat-regular;
+  color: $white;
+
+  background-color: $primary;
+  border-radius: 4px;
+
+  &:not(.card__button--disabled):hover,
+  &:not(.card__button--disabled):focus {
+    background-color: $primary-lighter;
+  }
+
+  &:not(.card__button--disabled):active {
+    background-color: $primary-darker;
+  }
+
+  &--disabled {
+    background-color: $grey;
+    cursor: not-allowed;
+  }
+}
